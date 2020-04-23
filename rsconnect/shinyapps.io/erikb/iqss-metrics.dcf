@@ -1,0 +1,12 @@
+name: iqss-metrics
+title: iqss-metrics
+username:
+account: erikb
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2172859
+bundleId: 3055812
+url: https://erikb.shinyapps.io/iqss-metrics/
+when: 1587662491.56602
+asMultiple: FALSE
+asStatic: FALSE

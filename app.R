@@ -7,16 +7,14 @@ library(treemap)
 library(plotly)
 
 # TODO: change directory for Shiny on the server
-options(shiny.port = 8100)
-
-user <- Sys.getenv('USER')
-if( user == 'erikbuunk') {
-  # setwd("~/Documents/Computer/iqss/heroku-docker-r-example-app")
-  setwd("/Volumes/GoogleDrive/My Drive/Metrics/IQSS Metrics Dashboard")
-  options(shiny.port = 8100)
-} else {
-  setwd("/app")
-}
+# user <- Sys.getenv('USER')
+# if( user == 'erikbuunk') {
+#   # setwd("~/Documents/Computer/iqss/heroku-docker-r-example-app")
+#   setwd("/Volumes/GoogleDrive/My Drive/Metrics/IQSS Metrics Dashboard")
+#   options(shiny.port = 8100)
+# } else {
+#   setwd("/app")
+# }
 
 # load R files ------------
 source("helperFunctions.R")
